@@ -77,13 +77,18 @@ class LinkedList:
 # Usage example
 
 ll = LinkedList()
+
 ll.append(10)
 ll.append(20)
 ll.append(30)
+
 print(len(ll))  # Output: 3
 print(ll[1])    # Output: 20
+
 ll[1] = 25
 print(ll)       # Output: 10 -> 25 -> 30
+
 del ll[1]
 print(ll)       # Output: 10 -> 30
+
 print(30 in ll) # Output: True
