@@ -80,5 +80,7 @@ For I/O-bound operations (such as network requests or file reading/writing), `th
 ## Conclusion
 
 📌 **GIL limits the actual execution of multiple threads in Python**, preventing them from running simultaneously in CPU-bound operations.
+
 📌 For **heavy computational tasks**, `multiprocessing` is a better solution.
+
 📌 For **I/O** tasks, `threading` can still be efficient, as GIL is freed during wait operations.
