@@ -13,3 +13,5 @@ Here, you will find explanations and examples on:
 - **Metaclasses & Classes**
 - **OOP Concepts**
 - **Weird Things about How Python Works**
+- **List Comprehension**
+- **And a lot more Python concepts...**
